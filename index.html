@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Renault</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Playfair+Display:900,900i" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid">
+		<header class="margin-collapse">
+			<div class="row">
+				<div class="col-3">    
+					<div id="logo"><img class="img-fluid" src="images/Microsoft Logo.png"></img>
+					</div>
+				</div>
+				<div class="col-6 nopadding logo"> 
+					<h1><i>A</i>TMOSPHERE</h1>
+				</div>
+				<nav class="col-3 header-nav">
+					MENU
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</nav>
+			</div>
+		</header>
+		<div id="splash" class="margin-collapse">
+			<div class="splash-top">
+				<img class="img-fluid placeholder-sm" src="images/banner-empty.png">
+				<img class="img-fluid placeholder-lg" src="images/banner-lg.jpg">
+			</div>
+			<div class="splash-bottom">
+				<h2>Renault Sport Formula One Team</h2>
+				<h1 id="name">RE<br>NAU<br>LT</h1>
+			</div>
+		</div>
+		<main>
+			<div class="lg-vert-seperator"><img src="images/vert-separator.png"></div>
+			<div class="vert-text">
+				<p>United Kingdom <span>&mdash;</span>     Automotive</p>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-12"></div>
+				<div class="col-md-6 col-12">
+					<img src="images/vert-separator.png" class="vert-separator">
+					<h3>Renault Sport Formula One Team takes the lead with move to Office 365</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-12 first-main">
+					<p>After moving to Office 365, Renault Sport Formula One Team has been impressed with the immediate and long-term impacts on its IT organization. Infrastructure consolidation freed IT to focus on higher value tasks, while new cloud-based capabilities have enabled the IT team to better support business needs.
+					</p>
+				</div>
+				<div class="col-md-6 col-12 second-main">
+					<div class="horizontal-separator"></div>
+					<h4>Deciding when to change lanes</h4>
+					<div class="centered">
+						<div class="open-close-icon">x</div>
+					</div>
+					<p>The IT group for the Renault Sport Formula One Team had a decision to make. Were they ready to move their productivity solutions to the cloud? With a virtualization technology upgrade pending, the team felt it was an opportune time to make a change.</p>
+				</div>
+			</div>
+		</main>
+	</div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	$(window).on('resize', function(){
+    		var splashTop = $(".splash-top").innerHeight();
+    		$(".splash-bottom").innerHeight(splashTop);
+    		/*var splashBottom = $(".splash-bottom").innerWidth() * -1;
+    		$(".splash-bottom").css("margin-right", splashBottom);*/
+
+
+    	}).resize();
+
+    </script>
+</body>
+</html>
