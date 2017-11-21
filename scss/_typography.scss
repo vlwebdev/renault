@@ -1,0 +1,84 @@
+#first-letter{
+	font-family: 'Playfair Display', italic;
+}
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	letter-spacing: 5px;
+}
+nav{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 8px;
+}
+#splash{
+	h1{
+		font-family: 'Playfair Display', serif;
+		font-size: 109px;
+		line-height: 1.25em;
+		letter-spacing: 21px;
+		color: #000;
+		@media (min-width: 768px){
+			font-size: 150px;
+		}
+		@media (min-width: 1440px){
+			font-size: 237px;
+		}
+	}
+	h2{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 8px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: #6a6a6a;
+	}
+}
+main{
+	h3{
+		font-family: 'Playfair Display', serif;
+		font-size: 32px;
+		@media (min-width: 768px){
+    		line-height: 1.25em;
+    		font-size: 48px;
+    		padding-top: 82px;
+    	}
+	}
+	h4{
+		font-size: 10px;
+	    font-weight: 800;
+	    text-transform: uppercase;
+	    letter-spacing: 1px;
+	    @media (min-width: 768px){
+	    	padding-bottom: 15px; 
+	    	font-size: 14px;
+	    } 
+	}
+	.first-main{
+		p{
+			@media (min-width: 768px){
+				font-size: 14px;	
+			}
+		}
+	}
+	.second-main {
+		p{
+			font-size: 12px;
+			@media (min-width: 768px){
+				font-size: 14px;
+			}
+		}
+	}
+	.vert-text{
+		@media (min-width: 1220px){
+			color: #a6a6a6;
+    		font-size: 14px;
+    		font-weight: 800;
+    		text-transform: uppercase;
+    		letter-spacing: 3px;
+    		span{
+    			color: black;
+    			font-size: 20px;
+    			font-weight: 400;
+    		}
+    	}
+	}
+}
